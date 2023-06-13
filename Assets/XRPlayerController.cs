@@ -94,6 +94,7 @@ public class XRPlayerController : MonoBehaviour
             Vector3 forward = transform.TransformDirection(Vector3.forward);
 
             Vector3 moveDirection = right * xAxis + forward * zAxis;
+            moveDirection.y = moveDirection.y * 0;
             transform.position += vrCamera.transform.TransformDirection(moveDirection);
         }
 	}

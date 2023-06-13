@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadNewLevel()
     {
+        Debug.Log("Load New Scene() " + currentScene);
         if (currentScene < 3)
         {
             ResetPoints();

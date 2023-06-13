@@ -3,13 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
-{
-    /* TODO:
-     * - Implement interaction with 3D Objects
-     * - Implement walking (optional)
-     * - Count points and switch levels
-     */
-    
+{   
     void Start()
     {
         
