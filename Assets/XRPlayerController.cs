@@ -33,6 +33,7 @@ public class XRPlayerController : MonoBehaviour
 
     public Camera vrCamera;
 
+
     public enum CapsuleDirection
 	{
         XAxis,
@@ -77,6 +78,8 @@ public class XRPlayerController : MonoBehaviour
         {
             GameManager.instance.onFinishLevel();
         }
+
+        
     }
 
     private void UpdateMovement()
@@ -94,6 +97,7 @@ public class XRPlayerController : MonoBehaviour
             Vector3 forward = transform.TransformDirection(Vector3.forward);
 
             Vector3 moveDirection = right * xAxis + forward * zAxis;
+            moveDirection.y = moveDirection.y * 0;
             transform.position += vrCamera.transform.TransformDirection(moveDirection);
         }
 	}
@@ -111,4 +115,6 @@ public class XRPlayerController : MonoBehaviour
             Debug.Log("POINTS: " + GameManager.points);
         }
     }
+
+    
 }

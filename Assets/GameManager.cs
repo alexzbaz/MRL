@@ -19,16 +19,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        LoadNewLevel();
+        //LoadNewLevel();
     }
 
     public void onFinishLevel()
     {
-        LoadNewLevel();
+        //LoadNewLevel();
     }
 
     public void LoadNewLevel()
     {
+        Debug.Log("Load New Scene() " + currentScene);
         if (currentScene < 3)
         {
             ResetPoints();

@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
 {
-    /* TODO:
-     * - Implement interaction with 3D Objects
-     * - Implement walking (optional)
-     * - Count points and switch levels
-     */
-    
+
+    private bool isGrabbing = false;
+    private Rigidbody grabbedObject;
+
     void Start()
     {
         
@@ -18,10 +16,17 @@ public class FirstPersonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isGrabbing && grabbedObject != null)
+        {
+            // Move the grabbed object along with the VR controller
+            grabbedObject.MovePosition(transform.position); // Change to make child of controller --> workaround
+            grabbedObject.MoveRotation(transform.rotation);
+        }
+
         if (GameManager.points >= 100)
-		{
+        {
             GameManager.instance.onFinishLevel();
-		}
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -36,5 +41,23 @@ public class FirstPersonController : MonoBehaviour
             GameManager.points += 20;
             Debug.Log("POINTS: " + GameManager.points);
 		}
+    }
+
+    public void GrabObject(Rigidbody objectToGrab)
+    {
+        if (!isGrabbing)
+        {
+            isGrabbing = true;
+            grabbedObject = objectToGrab;
+        }
+    }
+
+    public void ReleaseObject()
+    {
+        if (isGrabbing)
+        {
+            isGrabbing = false;
+            grabbedObject = null;
+        }
     }
 }
