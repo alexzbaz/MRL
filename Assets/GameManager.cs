@@ -19,12 +19,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        LoadNewLevel();
+        //LoadNewLevel();
     }
 
     public void onFinishLevel()
     {
-        LoadNewLevel();
+        //LoadNewLevel();
     }
 
     public void LoadNewLevel()

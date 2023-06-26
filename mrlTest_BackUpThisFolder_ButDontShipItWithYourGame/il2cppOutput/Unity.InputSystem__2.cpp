@@ -2511,6 +2511,8 @@ struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // System.Single
@@ -3987,51 +3989,51 @@ struct InputBindingComposite_tA9230435A30FB5B2D4967D6FAE7EFABBBF26C0C0  : public
 struct InputControlAttribute_t312CA97B153666F873279E81BA4054684715368D  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<layout>k__BackingField
-	String_t* ___U3ClayoutU3Ek__BackingField_0;
+	String_t* ___U3ClayoutU3Ek__BackingField_1;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<variants>k__BackingField
-	String_t* ___U3CvariantsU3Ek__BackingField_1;
+	String_t* ___U3CvariantsU3Ek__BackingField_2;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<name>k__BackingField
-	String_t* ___U3CnameU3Ek__BackingField_2;
+	String_t* ___U3CnameU3Ek__BackingField_3;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<format>k__BackingField
-	String_t* ___U3CformatU3Ek__BackingField_3;
+	String_t* ___U3CformatU3Ek__BackingField_4;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<usage>k__BackingField
-	String_t* ___U3CusageU3Ek__BackingField_4;
+	String_t* ___U3CusageU3Ek__BackingField_5;
 	// System.String[] UnityEngine.InputSystem.Layouts.InputControlAttribute::<usages>k__BackingField
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CusagesU3Ek__BackingField_5;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CusagesU3Ek__BackingField_6;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<parameters>k__BackingField
-	String_t* ___U3CparametersU3Ek__BackingField_6;
+	String_t* ___U3CparametersU3Ek__BackingField_7;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<processors>k__BackingField
-	String_t* ___U3CprocessorsU3Ek__BackingField_7;
+	String_t* ___U3CprocessorsU3Ek__BackingField_8;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<alias>k__BackingField
-	String_t* ___U3CaliasU3Ek__BackingField_8;
+	String_t* ___U3CaliasU3Ek__BackingField_9;
 	// System.String[] UnityEngine.InputSystem.Layouts.InputControlAttribute::<aliases>k__BackingField
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CaliasesU3Ek__BackingField_9;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CaliasesU3Ek__BackingField_10;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<useStateFrom>k__BackingField
-	String_t* ___U3CuseStateFromU3Ek__BackingField_10;
+	String_t* ___U3CuseStateFromU3Ek__BackingField_11;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<bit>k__BackingField
-	uint32_t ___U3CbitU3Ek__BackingField_11;
+	uint32_t ___U3CbitU3Ek__BackingField_12;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<offset>k__BackingField
-	uint32_t ___U3CoffsetU3Ek__BackingField_12;
+	uint32_t ___U3CoffsetU3Ek__BackingField_13;
 	// System.UInt32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<sizeInBits>k__BackingField
-	uint32_t ___U3CsizeInBitsU3Ek__BackingField_13;
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField_14;
 	// System.Int32 UnityEngine.InputSystem.Layouts.InputControlAttribute::<arraySize>k__BackingField
-	int32_t ___U3CarraySizeU3Ek__BackingField_14;
+	int32_t ___U3CarraySizeU3Ek__BackingField_15;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<displayName>k__BackingField
-	String_t* ___U3CdisplayNameU3Ek__BackingField_15;
+	String_t* ___U3CdisplayNameU3Ek__BackingField_16;
 	// System.String UnityEngine.InputSystem.Layouts.InputControlAttribute::<shortDisplayName>k__BackingField
-	String_t* ___U3CshortDisplayNameU3Ek__BackingField_16;
+	String_t* ___U3CshortDisplayNameU3Ek__BackingField_17;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<noisy>k__BackingField
-	bool ___U3CnoisyU3Ek__BackingField_17;
+	bool ___U3CnoisyU3Ek__BackingField_18;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<synthetic>k__BackingField
-	bool ___U3CsyntheticU3Ek__BackingField_18;
+	bool ___U3CsyntheticU3Ek__BackingField_19;
 	// System.Boolean UnityEngine.InputSystem.Layouts.InputControlAttribute::<dontReset>k__BackingField
-	bool ___U3CdontResetU3Ek__BackingField_19;
+	bool ___U3CdontResetU3Ek__BackingField_20;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<defaultState>k__BackingField
-	RuntimeObject* ___U3CdefaultStateU3Ek__BackingField_20;
+	RuntimeObject* ___U3CdefaultStateU3Ek__BackingField_21;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<minValue>k__BackingField
-	RuntimeObject* ___U3CminValueU3Ek__BackingField_21;
+	RuntimeObject* ___U3CminValueU3Ek__BackingField_22;
 	// System.Object UnityEngine.InputSystem.Layouts.InputControlAttribute::<maxValue>k__BackingField
-	RuntimeObject* ___U3CmaxValueU3Ek__BackingField_22;
+	RuntimeObject* ___U3CmaxValueU3Ek__BackingField_23;
 };
 
 // UnityEngine.InputSystem.LowLevel.InputDeviceCommand
@@ -15698,7 +15700,7 @@ IL_004b:
 		String_t* L_14 = ___1_part;
 		NullCheck(L_13);
 		FieldInfo_t* L_15;
-		L_15 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(83 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_13, L_14, ((int32_t)21));
+		L_15 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_13, L_14, ((int32_t)21));
 		V_1 = L_15;
 		// if (field == null)
 		FieldInfo_t* L_16 = V_1;
@@ -16025,7 +16027,7 @@ IL_0065:
 		Type_t* L_12 = __this->___U3CcompositeTypeU3E5__1_5;
 		NullCheck(L_12);
 		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_13;
-		L_13 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(84 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
+		L_13 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(87 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_12, ((int32_t)20));
 		__this->___U3CU3Es__2_6 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3Es__2_6), (void*)L_13);
 		__this->___U3CU3Es__3_7 = 0;
@@ -19652,7 +19654,7 @@ IL_000f_1:
 				L_4 = NamedValue_get_name_m45E9C3490890CE9E140EFCF1A33781E0939A884F_inline((&V_1), NULL);
 				NullCheck(L_3);
 				FieldInfo_t* L_5;
-				L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(83 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_3, L_4, ((int32_t)53));
+				L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_3, L_4, ((int32_t)53));
 				V_2 = L_5;
 				// if (field == null)
 				FieldInfo_t* L_6 = V_2;
@@ -19730,7 +19732,7 @@ IL_0099_1:
 				FieldInfo_t* L_26 = V_2;
 				NullCheck(L_26);
 				Type_t* L_27;
-				L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_26);
+				L_27 = VirtualFuncInvoker0< Type_t* >::Invoke(18 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_26);
 				il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 				int32_t L_28;
 				L_28 = Type_GetTypeCode_m2CE476933AF4B381D7A52F4343B70E9878FDF466(L_27, NULL);
@@ -19845,7 +19847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputBindingResolver_AssignCompositeP
 		String_t* L_3 = ___1_name;
 		NullCheck(L_2);
 		FieldInfo_t* L_4;
-		L_4 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(83 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_2, L_3, ((int32_t)53));
+		L_4 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_2, L_3, ((int32_t)53));
 		V_1 = L_4;
 		// if (field == null)
 		FieldInfo_t* L_5 = V_1;
@@ -19878,7 +19880,7 @@ IL_0032:
 		FieldInfo_t* L_13 = V_1;
 		NullCheck(L_13);
 		Type_t* L_14;
-		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_13);
+		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(18 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_13);
 		V_2 = L_14;
 		// if (fieldType != typeof(int))
 		Type_t* L_15 = V_2;
@@ -19919,7 +19921,7 @@ IL_0067:
 		RuntimeObject* L_27 = ___0_composite;
 		NullCheck(L_26);
 		RuntimeObject* L_28;
-		L_28 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_26, L_27);
+		L_28 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(23 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_26, L_27);
 		V_3 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_28, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		// if (partIndex == 0)
 		int32_t L_29 = V_3;
@@ -26445,7 +26447,7 @@ IL_001e_1:
 				InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_4 = V_4;
 				NullCheck(L_3);
 				bool L_5;
-				L_5 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_3, L_4);
+				L_5 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(114 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_3, L_4);
 				V_5 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 				bool L_6 = V_5;
 				if (!L_6)
@@ -37418,7 +37420,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputControlAttribute_g
 {
 	{
 		// public string layout { get; set; }
-		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3ClayoutU3Ek__BackingField_1;
 		return L_0;
 	}
 }

@@ -7536,7 +7536,7 @@ IL_000d:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_6 = V_2;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
+		L_7 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(114 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
 		V_3 = L_7;
 		bool L_8 = V_3;
 		if (!L_8)
@@ -7626,7 +7626,7 @@ IL_0013:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_7 = V_3;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(114 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		V_4 = L_8;
 		bool L_9 = V_4;
 		if (!L_9)
@@ -7718,7 +7718,7 @@ IL_0014:
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_7 = V_2;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(114 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		V_3 = L_8;
 		bool L_9 = V_3;
 		if (!L_9)
@@ -8910,7 +8910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CSendInitializeEventU3Eb_
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_3 = ___0_f;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___version_8;
@@ -8976,7 +8976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CSendInitializeEventU3Eb_
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
 		OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* L_3 = ___0_f;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___version_8;
