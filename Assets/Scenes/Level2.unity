@@ -2519,6 +2519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 5 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
 --- !u!1001 &106316491
@@ -4541,6 +4546,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mayonnaise (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1322321673432255124, guid: 14141fcfff748b844a92506a408e565f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2594791738915436679, guid: 14141fcfff748b844a92506a408e565f,
         type: 3}
       propertyPath: m_RootOrder
@@ -6459,6 +6469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tin 3 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a8acf7bd30886ec4dbebf7e2b86236ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8acf7bd30886ec4dbebf7e2b86236ec, type: 3}
@@ -9990,6 +10005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chips 1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7954254954922983178, guid: 61438a66266e9644eb7d6495e1008167,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61438a66266e9644eb7d6495e1008167, type: 3}
@@ -18069,6 +18089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8174821565183319746, guid: d50662ffa66cf4a4690d538213c9ae8f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d50662ffa66cf4a4690d538213c9ae8f, type: 3}
 --- !u!1001 &750024192
@@ -18884,6 +18909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tin 5 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
@@ -22827,6 +22857,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mayonnaise (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1322321673432255124, guid: 14141fcfff748b844a92506a408e565f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2594791738915436679, guid: 14141fcfff748b844a92506a408e565f,
         type: 3}
       propertyPath: m_RootOrder
@@ -24137,6 +24172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cereals 1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725215717356791879, guid: 2123e294a2b04994f9b0bc5461aceea6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8732291130153900628, guid: 2123e294a2b04994f9b0bc5461aceea6,
         type: 3}
       propertyPath: m_RootOrder
@@ -24481,6 +24521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Car (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 302861288773779480, guid: 925442b567c1585468d81264aa12688d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2021883894152180932, guid: 925442b567c1585468d81264aa12688d,
         type: 3}
@@ -25150,6 +25195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tin 5 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
@@ -31512,7 +31562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!215 &1341427957
 ReflectionProbe:
   m_ObjectHideFlags: 0
@@ -32321,6 +32371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 3 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 440900828651579038, guid: 0e0c899cbb1ba674a957088f4158582a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3478253560752575629, guid: 0e0c899cbb1ba674a957088f4158582a,
         type: 3}
       propertyPath: m_RootOrder
@@ -32858,6 +32913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tin 5 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
@@ -35712,6 +35772,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chips 1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7954254954922983178, guid: 61438a66266e9644eb7d6495e1008167,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61438a66266e9644eb7d6495e1008167, type: 3}
 --- !u!1001 &1535664574
@@ -36615,7 +36680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!215 &1574582067
 ReflectionProbe:
   m_ObjectHideFlags: 0
@@ -37233,6 +37298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chips 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7954254954922983178, guid: 61438a66266e9644eb7d6495e1008167,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61438a66266e9644eb7d6495e1008167, type: 3}
 --- !u!1001 &1604136045
@@ -37841,7 +37911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1635054508
 Light:
   m_ObjectHideFlags: 0
@@ -39629,6 +39699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chips 2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358362699394155820, guid: aba8d50f5cea81342b69edf24267460d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8d50f5cea81342b69edf24267460d, type: 3}
@@ -41821,6 +41896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
 --- !u!1001 &1781984036
@@ -43769,6 +43849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: a8acf7bd30886ec4dbebf7e2b86236ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8acf7bd30886ec4dbebf7e2b86236ec, type: 3}
 --- !u!1 &1856082227 stripped
@@ -44132,6 +44217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chips 2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358362699394155820, guid: aba8d50f5cea81342b69edf24267460d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8d50f5cea81342b69edf24267460d, type: 3}
@@ -44571,6 +44661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mayonnaise (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1322321673432255124, guid: 14141fcfff748b844a92506a408e565f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2594791738915436679, guid: 14141fcfff748b844a92506a408e565f,
         type: 3}
       propertyPath: m_RootOrder
@@ -44584,7 +44679,7 @@ PrefabInstance:
     - target: {fileID: 2594791738915436679, guid: 14141fcfff748b844a92506a408e565f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7726
+      value: 1.773
       objectReference: {fileID: 0}
     - target: {fileID: 2594791738915436679, guid: 14141fcfff748b844a92506a408e565f,
         type: 3}
@@ -45109,6 +45204,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin 5 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8049290896531631855, guid: d53489f01eae2b241898673ac6c95085,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d53489f01eae2b241898673ac6c95085, type: 3}
 --- !u!1 &1904557440 stripped
@@ -45140,6 +45240,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tin 3 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 440900828651579038, guid: 0e0c899cbb1ba674a957088f4158582a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3478253560752575629, guid: 0e0c899cbb1ba674a957088f4158582a,
         type: 3}
@@ -47341,7 +47446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2012355916
 Light:
   m_ObjectHideFlags: 0
@@ -49350,6 +49455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cookies (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 13b1a0a5a1bb5a547a06db5210e75fb5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13b1a0a5a1bb5a547a06db5210e75fb5, type: 3}
@@ -53980,6 +54090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Freezer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145494241218763178, guid: e93f324097ee0b847a462be4b5da02b9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e93f324097ee0b847a462be4b5da02b9, type: 3}
