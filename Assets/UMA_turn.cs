@@ -27,7 +27,7 @@ public class UMA_turn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rbPos = rb.transform;
+        //rbPos = rb.transform;
 
         SetNewTarget(new Vector3(
             rbPos.position.x,

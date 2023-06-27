@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Cube
   - Sphere
+  - GroceryObj
+  - Basket
   layers:
   - Default
   - TransparentFX
